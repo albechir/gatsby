@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: https://github.com/albechir/gatsby
+  repo: albechir/gatsby
 
 
 media_floder: static/assets
