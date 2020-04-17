@@ -2,14 +2,13 @@ backend:
   name: github
   repo: albechir/gatsby
 
-
-media_floder: static/assets
+media_folder: static/assets
 public_folder: /assets
 
 collections:
   - name: product
     label: Produit
-    floder: products
+    folder: products
     create: true
     fields:
       - { name: title, required: true, label: Titre}
