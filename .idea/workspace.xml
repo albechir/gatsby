@@ -2,79 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb7fb9e-7fa2-4673-aeb6-0fb815c16a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/contents/blog/first-blog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/blog/second-blog.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/docs/get-started/introduction.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/docs/get-started/quick-start.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/docs/guide/anchor.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/docs/guide/contents.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/docs/guide/menu-items.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contents/docs/guide/sidebar.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby/createPages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby/onCreateNode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatsby/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Container/Container.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Container/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu/Menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PostCard/PostCard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PostCard/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveAnchor/ResponsiveAnchor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveAnchor/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveSidebar/ResponsiveSidebar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveSidebar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveTopBar/ResponsiveTopBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveTopBar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarContents/SidebarContents.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarContents/SidebarContents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SidebarContents/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableOfContents/TableOfContents.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableOfContents/TableOfContents.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TableOfContents/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/menuItems/menuItems.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sidebars/sidebars.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/selectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/templates/postTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wrap-with-provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/pc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/products/test.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/gatsby-astronaut.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/coronavirus-covid19-quarantine-dolar-economy-260nw-1665212251-1-.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/raw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/assets/thinkPad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +49,7 @@
       <updated>1587722938949</updated>
       <workItem from="1587722942014" duration="3072000" />
       <workItem from="1587732066056" duration="2158000" />
-      <workItem from="1587737094059" duration="2789000" />
+      <workItem from="1587737094059" duration="4804000" />
     </task>
     <servers />
   </component>
