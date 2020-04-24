@@ -1,13 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1025dc15-29ec-43b5-a03c-2badfb0faa3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/assets/thinkPad.jpg" afterDir="false" />
+    <list default="true" id="7bb7fb9e-7fa2-4673-aeb6-0fb815c16a39" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contents/blog/first-blog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/blog/second-blog.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/docs/get-started/introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/docs/get-started/quick-start.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/docs/guide/anchor.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/docs/guide/contents.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/docs/guide/menu-items.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contents/docs/guide/sidebar.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby/createPages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby/onCreateNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/actionTypes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Container/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Container/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Menu/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Menu/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PostCard/PostCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PostCard/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveAnchor/ResponsiveAnchor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveAnchor/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveSidebar/ResponsiveSidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveSidebar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveTopBar/ResponsiveTopBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ResponsiveTopBar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SidebarContents/SidebarContents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SidebarContents/SidebarContents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SidebarContents/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableOfContents/TableOfContents.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableOfContents/TableOfContents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TableOfContents/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/menuItems/menuItems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/blog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sidebars/sidebars.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/selectors.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/postTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wrap-with-provider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc" beforeDir="false" afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-ssr.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-ssr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/pc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/test.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/seo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/gatsby-astronaut.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/404.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/404.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/admin/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/coronavirus-covid19-quarantine-dolar-economy-260nw-1665212251-1-.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/raw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/assets/thinkPad.jpg" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,69 +84,76 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\Bechir\Desktop\FullStack\gatsby\.idea" />
-      </set>
-    </option>
+  <component name="ProjectId" id="1az06QHlAAwLqBRZc3xEf4VX0dC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectId" id="1af4WXVGe3NbGYrDgmRgUjuJBaC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bechir\Desktop\Full\gatsby\static\assets" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1025dc15-29ec-43b5-a03c-2badfb0faa3b" name="Default Changelist" comment="" />
-      <created>1587113345593</created>
+      <changelist id="7bb7fb9e-7fa2-4673-aeb6-0fb815c16a39" name="Default Changelist" comment="" />
+      <created>1587722938949</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587113345593</updated>
-      <workItem from="1587113346656" duration="1545000" />
-      <workItem from="1587114967617" duration="32000" />
-      <workItem from="1587115032058" duration="51000" />
-      <workItem from="1587115214954" duration="5533000" />
+      <updated>1587722938949</updated>
+      <workItem from="1587722942014" duration="3072000" />
+      <workItem from="1587732066056" duration="2158000" />
+      <workItem from="1587737094059" duration="2789000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1587736892048">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587736892048" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587736902957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587736902957" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587736902957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587736902957" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587736902956">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587736902956" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587736902957">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587736902957" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587736265315">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587736265315" />
+    <state x="390" y="99" width="585" height="530" key="find.popup" timestamp="1587727166407">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="99" width="585" height="530" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1587727166407" />
   </component>
 </project>

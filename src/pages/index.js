@@ -1,21 +1,28 @@
-import React from "react"
+import React from 'react'
+import Layout from '../components/Layout'
+import Button from 'antd/lib/button'
+import 'antd/lib/button/style/css'
 import { Link } from "gatsby"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-)
+const IndexPage = () => {
+  return (
+    <Layout>
+      <div>
+        <div align="center">
+        <br/>
+          <p style={{color: "cornflowerblue", fontSize: 50, fontWeight: 'bold'}}>
+            Gatsby Markdown Starter
+          </p>
+          <h2>Boilerplate for markdown-based website</h2>
+          <br/>
+          <Link to="/docs/get-started/introduction">
+            <Button type="primary" size="large" icon="right-circle" style={{marginRight: 10}}>Get Started</Button>
+          </Link>
+          <Button type="primary" size="large" icon="github" href="https://github.com/cvluca/gatsby-starter-markdown">Github</Button>
+        </div>
+      </div>
+    </Layout>
+  )
+}
 
 export default IndexPage
