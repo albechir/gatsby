@@ -8,4 +8,6 @@
 
 exports.createPages = require('./gatsby/createPages')
 exports.onCreateNode = require('./gatsby/onCreateNode')
-exports.createPages = s
+//  exports.createPages = async  ({actions, graphql}){
+
+//}

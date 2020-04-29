@@ -1,25 +1,25 @@
-/* import React, { Component } from "react"
-import PropTypes from "prop-types"
+ import React from "react"
 import { graphql } from 'gatsby'
 
 export const query = graphql`
     query MyQuery {
-        allMarkdownRemark {
-            edges {
-                node {
-                    frontmatter {
-                        description
-                        image
-                        price
-                        title
-                    }
-                }
-            }
+  allMarkdownRemark {
+    edges {
+      node {
+        frontmatter {
+          title
+          showTitle
+          sidebar
         }
+      }
     }
+  }
+}
+
 `
 
 const Products = ({data}) => {
+    console.log(data);
     return (
         <table>
         <tr>
@@ -27,14 +27,16 @@ const Products = ({data}) => {
         <th>Price</th>
         <th>Description</th>
         <th>Preview</th>
+
         </tr>
+
     {
         data.allMarkdownRemark.edges.map((product) => {
             return <tr>
             <td>{product.node.frontmatter.title}</td>
-            <td>{product.node.frontmatter.price} €</td>
-            <td>{product.node.frontmatter.description}</td>
-            <td><img src={product.node.frontmatter.image} alt=""/></td>
+            <td>{product.node.frontmatter.showTitle} €</td>
+            <td>{product.node.frontmatter.sidebar}</td>
+            <td><img src="" alt=""/></td>
                 </tr>
         })
     }
@@ -45,4 +47,3 @@ const Products = ({data}) => {
 Products.propTypes = {}
 
 export default Products
-*/
