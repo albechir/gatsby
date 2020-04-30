@@ -1,8 +1,9 @@
+import productTemplate from "../src/templates/productTemplate";
 
 const replacePath = require('./utils')
 const path = require("path")
 
-module.exports = exports.createPages = ({ actions, graphql }) => {
+module.exports = exports.TamplateProduct = ({ actions, graphql }) => {
     const { createPage } = actions
 
     const postTemplate = path.resolve(`src/templates/productTemplate.js`)
@@ -27,7 +28,7 @@ module.exports = exports.createPages = ({ actions, graphql }) => {
         result.data.allMarkdownRemark.edges.forEach(({ node }) => {
             createPage({
                 path: replacePath(node.fields.slug),
-                component: postTemplate,
+                component: productTemplate,
                 context: {}, // additional data can be passed via context
             })
         })

@@ -6,12 +6,14 @@
 
 // You can delete this file if you're not using it
 
-//exports.createPages = require('./gatsby/createPages')
-//exports.onCreateNode = require('./gatsby/onCreateNode')
+exports.createPages = require('./gatsby/createPages')
+exports.onCreateNode = require('./gatsby/onCreateNode')
+exports.tamplateProduct = require('./gatsby/tamplateProduct.js')
+
 //  exports.createPages = async  ({actions, graphql}){
 
 //}
-
+/*
 exports.createPages = async function ({actions, graphql}) {
 
     const products = await graphql(
@@ -40,4 +42,4 @@ exports.createPages = async function ({actions, graphql}) {
 
 
 }
-
+*/
