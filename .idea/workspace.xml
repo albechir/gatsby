@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb7fb9e-7fa2-4673-aeb6-0fb815c16a39" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gatsby/tamplateProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby/tamplateProduct.js" afterDir="false" />
     </list>
@@ -54,7 +55,7 @@
       <workItem from="1587722942014" duration="3072000" />
       <workItem from="1587732066056" duration="2158000" />
       <workItem from="1587737094059" duration="9653000" />
-      <workItem from="1588192950460" duration="23817000" />
+      <workItem from="1588192950460" duration="24570000" />
     </task>
     <servers />
   </component>
