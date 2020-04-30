@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bb7fb9e-7fa2-4673-aeb6-0fb815c16a39" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/success.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonctions/hello.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatsby/tamplateProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/p.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products/prod.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/templates/productTemplate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/the.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/assets/y.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatsby-node.js" beforeDir="false" afterPath="$PROJECT_DIR$/gatsby-node.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +39,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pgat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Bechir\Desktop\Full\gatsby\node_modules\prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bechir\Desktop\Full\gatsby\static\assets" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,7 +64,7 @@
       <workItem from="1587722942014" duration="3072000" />
       <workItem from="1587732066056" duration="2158000" />
       <workItem from="1587737094059" duration="9653000" />
-      <workItem from="1588192950460" duration="6890000" />
+      <workItem from="1588192950460" duration="23404000" />
     </task>
     <servers />
   </component>
@@ -61,6 +75,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="435" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588255935695">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="435" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1588255935695" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1587744457238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -85,9 +103,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587736265315" />
-    <state x="390" y="99" width="585" height="530" key="find.popup" timestamp="1588197403687">
+    <state x="390" y="99" width="585" height="530" key="find.popup" timestamp="1588254583677">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="99" width="585" height="530" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1588197403687" />
+    <state x="390" y="99" width="585" height="530" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1588254583677" />
   </component>
 </project>
