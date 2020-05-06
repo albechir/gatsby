@@ -66,7 +66,7 @@ class Layout extends Component {
                   >
                     <Row>
                       <Col>
-                        <Header siteTitle={data.site.siteMetadata.title} sidebarDocked={!matches}/>
+                        <Header siteTitle="Bechir Docs" sidebarDocked={!matches}/>
                       </Col>
                       {matches && onPostPage && (!anchorHide || !sidebarHide) &&
                         <Col> <ResponsiveTopBar/> </Col>

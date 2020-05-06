@@ -8,7 +8,7 @@
 
 exports.createPages = require('./gatsby/createPages')
 exports.onCreateNode = require('./gatsby/onCreateNode')
-exports.tamplateProduct = require('./gatsby/tamplateProduct.js')
+//exports.tamplateProduct = require('./gatsby/tamplateProduct.js')
 
 //  exports.createPages = async  ({actions, graphql}){
 
