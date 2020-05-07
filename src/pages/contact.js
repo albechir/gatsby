@@ -8,9 +8,8 @@ import {ThemeProvider, createGlobalStyle} from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 body{
-background-color: ${props => props.theme.mode === 'dark' ? '#111' : '#EEE'};
-color: ${props => props.theme.mode === 'dark' ? '#111' : '#EEE'};
-
+background-color: ${props => props.theme.mode === 'dark' ? '#18191a' : '#EEE'};
+color: ${props => props.theme.mode === 'dark' ? '#18191a' : '#EEE'};
 }
 `
 const Contact = () => {
@@ -24,7 +23,7 @@ const Contact = () => {
                 <Title>
                     Contact form
                 </Title>
-<Button
+<Button style={{alignContent: "center"}}
     onClick={
         e => setTheme(
             theme.mode === 'light'
@@ -39,13 +38,13 @@ const Contact = () => {
                     <FContact>
                         <legend> Contact form</legend>
                         <input type="hidden" name="form-name" value="contact"/>
-                        <p>
+                        <Label>
                             <label>Your Name : <input type="text" name="name"/></label>
-                        </p>
-                        <p>
+                        </Label>
+                        <Label>
                             <label>Your Email : <input type="email" name="email"/></label>
-                        </p>
-                        <p>
+                        </Label>
+                        <p style={{color : "blueviolet"}}>
                             <label>Message : <textarea name="message"></textarea></label>
                         </p>
                         <p>
@@ -73,5 +72,10 @@ color: cornflowerblue;
 font-family: cursive;
 font-size: 70px;
 text-align: center;
+`
+const Label = styled.p`
+color: cornflowerblue;
+font-family: cursive;
+font-size: 10px;
 `
 export default Contact;
